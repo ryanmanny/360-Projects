@@ -1,0 +1,4 @@
+D /dir
+D /dir/honk
+D /dir/bonk
+F /dir/honk/file

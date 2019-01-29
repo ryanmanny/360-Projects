@@ -1,0 +1,82 @@
+gcc -m32 -g -Wall -o a.out t.c ts.s
+
+./a.out
+enter main
+
+&argc=ffac8760 argv=ffac87f4 env=ffac87fc
+&a=ffac872c &b=ffac8730 &c=ffac8734
+
+./a.out
+
+enter A
+&d=ffac86e0 &e=ffac86e4 &f=ffac86e8
+
+enter B
+&g=ffac86b0 &h=ffac86b4 &i=ffac86b8
+
+enter C
+&u=ffac8678 &v=ffac867c &w=ffac8680 &i=ffac8684 &p=ffac8674
+
+FP: ffac8698	*FP: ffac86c8
+FP: ffac86c8	*FP: ffac86f8
+FP: ffac86f8	*FP: ffac8748
+FP: ffac8748	*FP: 0
+
+p: ffac8674	*p: ffac8674
+p: ffac8678	*p: a
+p: ffac867c	*p: b
+p: ffac8680	*p: c
+p: ffac8684	*p: d
+p: ffac8688	*p: 5
+p: ffac868c	*p: 5c17cf00
+p: ffac8690	*p: f773e000
+p: ffac8694	*p: f773e000
+p: ffac8698	*p: ffac86c8
+p: ffac869c	*p: 804866f
+p: ffac86a0	*p: 7
+p: ffac86a4	*p: 8
+p: ffac86a8	*p: ffac86b4
+p: ffac86ac	*p: ffac86b8
+p: ffac86b0	*p: 7
+p: ffac86b4	*p: 8
+p: ffac86b8	*p: 9
+p: ffac86bc	*p: 5c17cf00
+p: ffac86c0	*p: f773e000
+p: ffac86c4	*p: f773e000
+p: ffac86c8	*p: ffac86f8
+p: ffac86cc	*p: 80485e9
+p: ffac86d0	*p: 4
+p: ffac86d4	*p: 5
+p: ffac86d8	*p: ffac86e4
+p: ffac86dc	*p: ffac86e8
+p: ffac86e0	*p: 4
+p: ffac86e4	*p: 5
+p: ffac86e8	*p: 6
+p: ffac86ec	*p: 5c17cf00
+p: ffac86f0	*p: f773e000
+p: ffac86f4	*p: f773e000
+p: ffac86f8	*p: ffac8748
+p: ffac86fc	*p: 804855b
+p: ffac8700	*p: 1
+p: ffac8704	*p: 2
+p: ffac8708	*p: ffac8730
+p: ffac870c	*p: ffac8734
+p: ffac8710	*p: 8000
+p: ffac8714	*p: f773e000
+p: ffac8718	*p: ffac87fc
+p: ffac871c	*p: ffac87f4
+p: ffac8720	*p: 1
+p: ffac8724	*p: 3
+p: ffac8728	*p: f75baa50
+p: ffac872c	*p: 1
+p: ffac8730	*p: 2
+p: ffac8734	*p: 3
+p: ffac8738	*p: 1
+p: ffac873c	*p: 5c17cf00
+p: ffac8740	*p: ffac8760
+p: ffac8744	*p: 0
+p: ffac8748	*p: 0
+
+exit B
+exit A
+exit main
